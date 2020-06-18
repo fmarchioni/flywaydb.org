@@ -183,6 +183,7 @@ Prints the details and status information about all the migrations.
                 it will be applied too instead of being ignored.</p>
         </td>
     </tr>
+    {% include cfg/jdbcProperties.html %}
     {% include cfg/workingDirectory.html %}
     {% include cfg/licenseKey.html %}
     </tbody>
@@ -218,6 +219,7 @@ flyway.skipDefaultCallbacks=false
 flyway.target=5.1
 flyway.outOfOrder=false
 flyway.workingDirectory=C:/myProject
+flyway.jdbcProperties.myProperty=value
 ```
 
 ## Sample output
